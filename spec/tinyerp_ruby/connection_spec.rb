@@ -9,7 +9,7 @@ describe TinyerpRuby::Connection do
     end
 
     it "recognize production url" do
-      expect(connection.base_url).to eq "http://www.tiny.com.br/api2"
+      expect(connection.base_url).to eq "http://www.tiny.com.br/api2.php?wsdl"
     end
   end
 

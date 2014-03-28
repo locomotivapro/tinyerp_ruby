@@ -14,12 +14,12 @@ describe TinyerpRuby::Service do
     end
   end
 
-  context 'accepted services', :vcr do
+  context 'accepts', :vcr do
     conn = TinyerpRuby::Connection.new('asfasdkjkl')
     poster = TinyerpRuby::Service.new(conn)
 
     TinyerpRuby::Service::SERVICES.each do |service|
-      it "##{service.to_s} not raise error" do
+      it "##{service.to_s} as a valid service" do
         expect{ poster.send(service, {}) }.to_not raise_error
       end
     end
