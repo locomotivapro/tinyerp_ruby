@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In first place you need an account in TinyERP
 
 ## Contributing
 
