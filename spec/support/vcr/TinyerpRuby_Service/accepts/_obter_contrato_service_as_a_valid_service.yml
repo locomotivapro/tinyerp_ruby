@@ -7,10 +7,8 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - '*/*'
+      - ! '*/*'
       User-Agent:
       - Ruby
   response:
@@ -23,7 +21,7 @@ http_interactions:
       Content-Type:
       - text/xml; charset=ISO-8859-1
       Date:
-      - Fri, 28 Mar 2014 17:03:32 GMT
+      - Mon, 31 Mar 2014 13:15:26 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -31,13 +29,11 @@ http_interactions:
       Server:
       - Apache/2.2.25 (Amazon)
       Set-Cookie:
-      - PHPSESSID=q01pkqg7h3dgpq68q5ksdsdslc5rpbe6; path=/
-      Vary:
-      - Accept-Encoding
+      - PHPSESSID=hu8q6sgt12nfe97pa28lq488241iqh18; path=/
       X-Powered-By:
       - PHP/5.3.27
-      Content-Length:
-      - '3339'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
     body:
@@ -1498,57 +1494,67 @@ http_interactions:
         aW9uPSJodHRwOi8vd3d3LnRpbnkuY29tLmJyL2FwaTIucGhwIi8+CiAgPC9w
         b3J0Pgo8L3NlcnZpY2U+CjwvZGVmaW5pdGlvbnM+
     http_version: 
-  recorded_at: Fri, 28 Mar 2014 17:03:32 GMT
+  recorded_at: Mon, 31 Mar 2014 13:15:26 GMT
 - request:
     method: post
     uri: http://www.tiny.com.br/api2.php
     body:
-      encoding: UTF-8
+      encoding: US-ASCII
       string: <?xml version="1.0" encoding="UTF-8"?><env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="urn:tinywsdl"
-        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"><env:Body><tns:obterContratoService><token>asfasdkjkl</token><format>xml</format></tns:obterContratoService></env:Body></env:Envelope>
+        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"><env:Body><tns:obterContratoService><token>asfasdkjkl</token><formato>xml</formato></tns:obterContratoService></env:Body></env:Envelope>
     headers:
       Soapaction:
-      - '"urn:tinywsdl#obterContratoService"'
+      - ! '"urn:tinywsdl#obterContratoService"'
       Content-Type:
       - text/xml;charset=UTF-8
       Content-Length:
-      - '364'
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      - '366'
       Accept:
-      - '*/*'
+      - ! '*/*'
       User-Agent:
       - Ruby
   response:
     status:
       code: 200
-      message: OK
+      message: !binary |-
+        T0s=
     headers:
-      Cache-Control:
-      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-      Content-Type:
-      - text/xml; charset=UTF-8
-      Date:
-      - Fri, 28 Mar 2014 17:03:32 GMT
-      Expires:
-      - Thu, 19 Nov 1981 08:52:00 GMT
-      Pragma:
-      - no-cache
-      Server:
-      - Apache/2.2.25 (Amazon)
-      Set-Cookie:
-      - PHPSESSID=3ufmc7tvlip5iodl7dj6obvml969u3u2; path=/
-      Vary:
-      - Accept-Encoding
-      X-Powered-By:
-      - PHP/5.3.27
-      X-Soap-Server:
-      - NuSOAP/0.9.5 (1.1)
-      Content-Length:
-      - '374'
-      Connection:
-      - keep-alive
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        bm8tc3RvcmUsIG5vLWNhY2hlLCBtdXN0LXJldmFsaWRhdGUsIHBvc3QtY2hl
+        Y2s9MCwgcHJlLWNoZWNrPTA=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC94bWw7IGNoYXJzZXQ9VVRGLTg=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        TW9uLCAzMSBNYXIgMjAxNCAxMzoxNToyNiBHTVQ=
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        VGh1LCAxOSBOb3YgMTk4MSAwODo1MjowMCBHTVQ=
+      !binary "UHJhZ21h":
+      - !binary |-
+        bm8tY2FjaGU=
+      !binary "U2VydmVy":
+      - !binary |-
+        QXBhY2hlLzIuMi4yNSAoQW1hem9uKQ==
+      !binary "U2V0LUNvb2tpZQ==":
+      - !binary |-
+        UEhQU0VTU0lEPWpjcTk4Z3NqbmZyZTc0OG5sZHQ0a29yOTBldXRrczUyOyBw
+        YXRoPS8=
+      !binary "WC1Qb3dlcmVkLUJ5":
+      - !binary |-
+        UEhQLzUuMy4yNw==
+      !binary "WC1Tb2FwLVNlcnZlcg==":
+      - !binary |-
+        TnVTT0FQLzAuOS41ICgxLjEp
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        ODE4
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -1572,5 +1578,5 @@ http_interactions:
         b1NlcnZpY2VSZXNwb25zZT48L1NPQVAtRU5WOkJvZHk+PC9TT0FQLUVOVjpF
         bnZlbG9wZT4=
     http_version: 
-  recorded_at: Fri, 28 Mar 2014 17:03:32 GMT
+  recorded_at: Mon, 31 Mar 2014 13:15:26 GMT
 recorded_with: VCR 2.9.0

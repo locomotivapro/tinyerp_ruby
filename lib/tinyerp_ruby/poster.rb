@@ -6,15 +6,20 @@ module TinyerpRuby
     class << self
 
       def call(connection, service, params)
-        formatted_params = { token: connection.api_key, format: 'xml' }
-        formatted_params.merge!(params)
-
-        webservice = Savon.client(wsdl: connection.base_url, log: false)
-        response = webservice.call(service, message: formatted_params)
+        @connection = connection
+        webservice = Savon.client(wsdl: @connection.base_url)
+        response = webservice.call(service, message: formatted_params(params))
         parse service, response
       end
 
       private
+      def formatted_params(params)
+        formatted = { token: @connection.api_key }
+        formatted.delete(:formato)
+        formatted.merge!(params)
+        formatted.merge!({formato: 'xml'})
+        formatted
+      end
 
       # For some reason Savon isnt parsing the response, so we do
       def parse(service, response)

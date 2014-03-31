@@ -1,12 +1,11 @@
 require 'bundler/setup'
 Bundler.setup
 
+require 'support/vcr'
 require 'webmock/rspec'
 require 'savon'
 require 'savon_spec'
 require 'tinyerp_ruby'
-require 'vcr'
-require 'support/vcr'
 require 'support/api_key'
 
 RSpec.configure do |config|
