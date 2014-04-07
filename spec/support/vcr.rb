@@ -1,4 +1,6 @@
 require 'vcr'
+API_KEY = 'awesomeapikey' unless defined?(API_KEY)
+
 VCR.configure do |c|
   c.cassette_library_dir = File.expand_path('../vcr',__FILE__)
   c.hook_into :webmock
