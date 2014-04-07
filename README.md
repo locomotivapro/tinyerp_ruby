@@ -1,6 +1,6 @@
 # TinyerpRuby
 
-[![Build Status](https://travis-ci.org/detierno/dice.svg?branch=master)](https://travis-ci.org/detierno/dice)
+[![Build Status](https://travis-ci.org/locomotivapro/tinyerp_ruby.svg?branch=master)](https://travis-ci.org/locomotivapro/tinyerp_ruby)
 [![Code Climate](https://codeclimate.com/github/locomotivapro/tinyerp_ruby.png)](https://codeclimate.com/github/locomotivapro/tinyerp_ruby)
 
 Gem for integration with [TinyERP](http://www.tiny.com.br) API.
@@ -61,6 +61,7 @@ This is an early release and can be much improved. Next steps planned are;
 
   - Add builder object to complex methods as incluir_pedido and incluir_nota_fiscal
   - Add better docs for params hash object
+  - Add support for better logs
   - ...
 
 ## Contributing

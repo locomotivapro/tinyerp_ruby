@@ -7,7 +7,7 @@ module TinyerpRuby
 
       def call(connection, service, params)
         @connection = connection
-        webservice = Savon.client(wsdl: @connection.base_url, pretty_print_xml: true, convert_request_keys_to: :none)
+        webservice = Savon.client(wsdl: @connection.base_url, convert_request_keys_to: :none)
         response = webservice.call(service, message: formatted_params(params))
         parse service, response
       end
