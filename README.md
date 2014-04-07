@@ -27,7 +27,7 @@ parsing the response as a ruby hash object.
 
 Start creating a connection with you api key, by default it will be started in production env but you can provide another env in connection initialization.
 
-    connection = tinyerpRuby::Connection.new 'yourawesomeapikey'
+    connection = TinyerpRuby::Connection.new 'yourawesomeapikey'
 
 Then we create a service object.
 
