@@ -7,7 +7,7 @@ module TinyerpRuby
 
       def call(connection, service, params)
         @connection = connection
-        webservice = Savon.client(wsdl: @connection.base_url)
+        webservice = Savon.client(wsdl: @connection.base_url, pretty_print_xml: true, convert_request_keys_to: :none)
         response = webservice.call(service, message: formatted_params(params))
         parse service, response
       end
@@ -17,7 +17,7 @@ module TinyerpRuby
         formatted = { token: @connection.api_key }
         formatted.delete(:formato)
         formatted.merge!(params)
-        formatted.merge!({formato: 'xml'})
+        formatted.merge!({formato: 'json'})
         formatted
       end
 
