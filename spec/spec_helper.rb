@@ -4,7 +4,6 @@ Bundler.setup
 require 'support/vcr'
 require 'webmock/rspec'
 require 'savon'
-require 'savon_spec'
 require 'tinyerp_ruby'
 require 'support/api_key'
 
