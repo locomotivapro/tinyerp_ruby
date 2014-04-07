@@ -1,5 +1,6 @@
 # TinyerpRuby
 
+[![Build Status](https://travis-ci.org/detierno/dice.svg?branch=master)](https://travis-ci.org/detierno/dice)
 [![Code Climate](https://codeclimate.com/github/locomotivapro/tinyerp_ruby.png)](https://codeclimate.com/github/locomotivapro/tinyerp_ruby)
 
 Gem for integration with [TinyERP](http://www.tiny.com.br) API.
