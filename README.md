@@ -64,6 +64,7 @@ This is an early release and can be much improved. Next steps planned are;
   - Add builder object to complex methods as incluir_pedido and incluir_nota_fiscal
   - Add better docs for params hash object
   - Add support for better logs
+  - Create rdoc
   - ...
 
 ## Contributing
@@ -76,6 +77,6 @@ This is an early release and can be much improved. Next steps planned are;
 
 ## License
 
-MIT License. Copyright 2009-2014 Locomotiva.pro. http://locomotiva.pro
+MIT License. Copyright 2012-2014 Locomotiva.pro. http://locomotiva.pro
 
 You are not granted rights or licenses to the trademarks of the Locomotiva.pro.
