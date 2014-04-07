@@ -23,7 +23,7 @@ Or install it yourself as:
 
 ## Usage
 
-In first place you need an account in TinyERP. This gem iis just a
+In first place you need an account in TinyERP. This gem is just a
 wrapper to make calls to TinyERP api (v2) using a ruby hash and
 parsing the response as a ruby hash object.
 
@@ -38,7 +38,8 @@ Then we create a service object.
 With service object created we just need to call the api methods and pass a hash according api description.
 
     params = {....}
-    return_params = poster.pesquisar_vendedores_service(params)
+    return_params = poster.pesquisar_vendedores_service(id: params)
+    return_params = poster.incluir_pedido_service(pedido: params.to_json)
 
 The list with complete api method is found [here.](http://www.tiny.com.br/manuais/api2/)
 

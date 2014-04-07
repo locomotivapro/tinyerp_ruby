@@ -24,7 +24,8 @@ module TinyerpRuby
       def parse(service, response)
         node = [service.to_s, "response"].join("_").to_sym
         body = response.body[node][:return]
-        JSON.parse body, symbolize_names: true
+        parsed = JSON.parse body, symbolize_names: true
+        parsed[:retorno]
       end
 
     end
