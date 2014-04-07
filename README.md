@@ -1,4 +1,6 @@
 # TinyerpRuby
+by [Locomotiva.pro](http://locomotiva.pro)
+
 
 [![Build Status](https://travis-ci.org/locomotivapro/tinyerp_ruby.svg?branch=master)](https://travis-ci.org/locomotivapro/tinyerp_ruby)
 [![Code Climate](https://codeclimate.com/github/locomotivapro/tinyerp_ruby.png)](https://codeclimate.com/github/locomotivapro/tinyerp_ruby)
@@ -71,3 +73,9 @@ This is an early release and can be much improved. Next steps planned are;
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## License
+
+MIT License. Copyright 2009-2014 Locomotiva.pro. http://locomotiva.pro
+
+You are not granted rights or licenses to the trademarks of the Locomotiva.pro.
