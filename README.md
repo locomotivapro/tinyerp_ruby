@@ -1,6 +1,8 @@
 # TinyerpRuby
 
-Gem for integration with TinyERP API
+[![Code Climate](https://codeclimate.com/github/locomotivapro/tinyerp_ruby.png)](https://codeclimate.com/github/locomotivapro/tinyerp_ruby)
+
+Gem for integration with [![TinyERP](TinyERP)](http://www.tiny.com.br) API.
 
 ## Installation
 
@@ -22,18 +24,20 @@ In first place you need an account in TinyERP. This gem iis just a
 wrapper to make calls to TinyERP api (v2) using a ruby hash and
 parsing the response as a ruby hash object.
 
-    # Start creating a connection with you api key
-    # by default it will be started in production env but you can
-    # provide another env in connection initialization
+Start creating a connection with you api key, by default it will be started in production env but you can provide another env in connection initialization.
+
     connection = tinyerpRuby::Connection.new 'yourawesomeapikey'
 
-    # Then we create a service object
+Then we create a service object.
+
     poster = TinyerpRuby::Service.new connection
 
-    # With service object created we just need to call the api methods
-    # and pass a hash according api description
+With service object created we just need to call the api methods and pass a hash according api description.
+
     params = {....}
     return_params = poster.pesquisar_vendedores_service(params)
+
+The list with complete api method is found ![here.](http://www.tiny.com.br/manuais/api2/)
 
 ## Testing
 
@@ -49,6 +53,12 @@ create a file named api_key.rb inside spec/support with this code:
 This way you are set up to run the tests
 
     $ rspec spec
+
+## TODO
+
+This is an early release and can be much improved. Next steps planned are;
+
+  - Add builder object to complex methods as incluir_pedido and incluir_nota_fiscal
 
 ## Contributing
 
