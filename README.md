@@ -59,6 +59,8 @@ This way you are set up to run the tests
 This is an early release and can be much improved. Next steps planned are;
 
   - Add builder object to complex methods as incluir_pedido and incluir_nota_fiscal
+  - Add better docs for params hash object
+  - ...
 
 ## Contributing
 
