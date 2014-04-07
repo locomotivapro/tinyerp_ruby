@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/locomotivapro/tinyerp_ruby.svg?branch=master)](https://travis-ci.org/locomotivapro/tinyerp_ruby)
 [![Code Climate](https://codeclimate.com/github/locomotivapro/tinyerp_ruby.png)](https://codeclimate.com/github/locomotivapro/tinyerp_ruby)
 
-Gem for integration with [TinyERP](http://www.tiny.com.br) API.
+Gem for integration with [TinyERP](http://www.tiny.com.br) API. At the moment this gem is tested under ruby 1.9.3 and have some problems with ruby 2.0 because an weird behaviour with encoding.
 
 ## Installation
 
