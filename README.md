@@ -18,7 +18,22 @@ Or install it yourself as:
 
 ## Usage
 
-In first place you need an account in TinyERP
+In first place you need an account in TinyERP. This gem iis just a
+wrapper to make calls to TinyERP api (v2) using a ruby hash and
+parsing the response as a ruby hash object.
+
+    # Start creating a connection with you api key
+    # by default it will be started in production env but you can
+    # provide another env in connection initialization
+    connection = tinyerpRuby::Connection.new 'yourawesomeapikey'
+
+    # Then we create a service object
+    poster = TinyerpRuby::Service.new connection
+
+    # With service object created we just need to call the api methods
+    # and pass a hash according api description
+    params = {....}
+    return_params = poster.pesquisar_vendedores_service(params)
 
 ## Testing
 
