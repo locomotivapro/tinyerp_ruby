@@ -2,7 +2,7 @@
 
 [![Code Climate](https://codeclimate.com/github/locomotivapro/tinyerp_ruby.png)](https://codeclimate.com/github/locomotivapro/tinyerp_ruby)
 
-Gem for integration with [![TinyERP](TinyERP)](http://www.tiny.com.br) API.
+Gem for integration with [TinyERP](http://www.tiny.com.br) API.
 
 ## Installation
 
@@ -37,7 +37,7 @@ With service object created we just need to call the api methods and pass a hash
     params = {....}
     return_params = poster.pesquisar_vendedores_service(params)
 
-The list with complete api method is found ![here.](http://www.tiny.com.br/manuais/api2/)
+The list with complete api method is found [here.](http://www.tiny.com.br/manuais/api2/)
 
 ## Testing
 
