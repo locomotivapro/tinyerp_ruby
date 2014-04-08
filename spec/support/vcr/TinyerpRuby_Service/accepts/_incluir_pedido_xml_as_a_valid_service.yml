@@ -21,7 +21,7 @@ http_interactions:
       Content-Type:
       - text/xml; charset=ISO-8859-1
       Date:
-      - Mon, 31 Mar 2014 13:15:57 GMT
+      - Tue, 08 Apr 2014 12:57:49 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -29,7 +29,7 @@ http_interactions:
       Server:
       - Apache/2.2.25 (Amazon)
       Set-Cookie:
-      - PHPSESSID=o1r49rcql89r5d4ropl6bm62dn687voj; path=/
+      - PHPSESSID=p72lltrpdtf2vagjplqn201bfltvm8k3; path=/
       X-Powered-By:
       - PHP/5.3.27
       Transfer-Encoding:
@@ -1494,7 +1494,7 @@ http_interactions:
         aW9uPSJodHRwOi8vd3d3LnRpbnkuY29tLmJyL2FwaTIucGhwIi8+CiAgPC9w
         b3J0Pgo8L3NlcnZpY2U+CjwvZGVmaW5pdGlvbnM+
     http_version: 
-  recorded_at: Mon, 31 Mar 2014 13:15:58 GMT
+  recorded_at: Tue, 08 Apr 2014 12:57:50 GMT
 - request:
     method: post
     uri: http://www.tiny.com.br/api2.php
@@ -1502,14 +1502,14 @@ http_interactions:
       encoding: US-ASCII
       string: <?xml version="1.0" encoding="UTF-8"?><env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="urn:tinywsdl"
-        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"><env:Body><tns:incluirPedidoXML><token>asfasdkjkl</token><formato>xml</formato></tns:incluirPedidoXML></env:Body></env:Envelope>
+        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"><env:Body><tns:incluirPedidoXML><token><APIKEY></token><formato>json</formato></tns:incluirPedidoXML></env:Body></env:Envelope>
     headers:
       Soapaction:
       - ! '"urn:tinywsdl#incluirPedidoXML"'
       Content-Type:
       - text/xml;charset=UTF-8
       Content-Length:
-      - '358'
+      - '389'
       Accept:
       - ! '*/*'
       User-Agent:
@@ -1517,65 +1517,39 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Q2FjaGUtQ29udHJvbA==":
-      - !binary |-
-        bm8tc3RvcmUsIG5vLWNhY2hlLCBtdXN0LXJldmFsaWRhdGUsIHBvc3QtY2hl
-        Y2s9MCwgcHJlLWNoZWNrPTA=
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC94bWw7IGNoYXJzZXQ9VVRGLTg=
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAzMSBNYXIgMjAxNCAxMzoxNTo1OCBHTVQ=
-      !binary "RXhwaXJlcw==":
-      - !binary |-
-        VGh1LCAxOSBOb3YgMTk4MSAwODo1MjowMCBHTVQ=
-      !binary "UHJhZ21h":
-      - !binary |-
-        bm8tY2FjaGU=
-      !binary "U2VydmVy":
-      - !binary |-
-        QXBhY2hlLzIuMi4yNSAoQW1hem9uKQ==
-      !binary "U2V0LUNvb2tpZQ==":
-      - !binary |-
-        UEhQU0VTU0lEPW85cHRidGw0c2l1dDE3cTRyNmlxdDliNTBpM2Uza2htOyBw
-        YXRoPS8=
-      !binary "WC1Qb3dlcmVkLUJ5":
-      - !binary |-
-        UEhQLzUuMy4yNw==
-      !binary "WC1Tb2FwLVNlcnZlcg==":
-      - !binary |-
-        TnVTT0FQLzAuOS41ICgxLjEp
-      !binary "Q29udGVudC1MZW5ndGg=":
-      - !binary |-
-        ODEw
-      !binary "Q29ubmVjdGlvbg==":
-      - !binary |-
-        a2VlcC1hbGl2ZQ==
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Date:
+      - Tue, 08 Apr 2014 12:57:50 GMT
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache/2.2.25 (Amazon)
+      Set-Cookie:
+      - PHPSESSID=447mot34kcqtb04dj8d687307ecu7bn0; path=/
+      X-Powered-By:
+      - PHP/5.3.27
+      X-Soap-Server:
+      - NuSOAP/0.9.5 (1.1)
+      Content-Length:
+      - '930'
+      Connection:
+      - keep-alive
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48U09BUC1F
-        TlY6RW52ZWxvcGUgU09BUC1FTlY6ZW5jb2RpbmdTdHlsZT0iaHR0cDovL3Nj
-        aGVtYXMueG1sc29hcC5vcmcvc29hcC9lbmNvZGluZy8iIHhtbG5zOlNPQVAt
-        RU5WPSJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy9zb2FwL2VudmVsb3Bl
-        LyIgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVt
-        YSIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVt
-        YS1pbnN0YW5jZSIgeG1sbnM6U09BUC1FTkM9Imh0dHA6Ly9zY2hlbWFzLnht
-        bHNvYXAub3JnL3NvYXAvZW5jb2RpbmcvIj48U09BUC1FTlY6Qm9keT48bnMx
-        OmluY2x1aXJQZWRpZG9YTUxSZXNwb25zZSB4bWxuczpuczE9InVybjp0aW55
-        d3NkbCI+PHJldHVybiB4c2k6dHlwZT0ieHNkOnN0cmluZyI+Jmx0Oz94bWwg
-        dmVyc2lvbj0mcXVvdDsxLjAmcXVvdDsgZW5jb2Rpbmc9JnF1b3Q7VVRGLTgm
-        cXVvdDs/Jmd0OyZsdDtyZXRvcm5vJmd0OyZsdDtzdGF0dXNfcHJvY2Vzc2Ft
-        ZW50byZndDsxJmx0Oy9zdGF0dXNfcHJvY2Vzc2FtZW50byZndDsmbHQ7c3Rh
-        dHVzJmd0O0Vycm8mbHQ7L3N0YXR1cyZndDsmbHQ7Y29kaWdvX2Vycm8mZ3Q7
-        MiZsdDsvY29kaWdvX2Vycm8mZ3Q7Jmx0O2Vycm9zJmd0OyZsdDtlcnJvJmd0
-        O3Rva2VuIGludsOhbGlkbyZsdDsvZXJybyZndDsmbHQ7L2Vycm9zJmd0OyZs
-        dDsvcmV0b3JubyZndDs8L3JldHVybj48L25zMTppbmNsdWlyUGVkaWRvWE1M
-        UmVzcG9uc2U+PC9TT0FQLUVOVjpCb2R5PjwvU09BUC1FTlY6RW52ZWxvcGU+
+      encoding: US-ASCII
+      string: ! "<?xml version=\"1.0\" encoding=\"UTF-8\"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle=\"http://schemas.xmlsoap.org/soap/encoding/\"
+        xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:SOAP-ENC=\"http://schemas.xmlsoap.org/soap/encoding/\"><SOAP-ENV:Body><ns1:incluirPedidoXMLResponse
+        xmlns:ns1=\"urn:tinywsdl\"><return xsi:type=\"xsd:string\">&lt;?xml version=&quot;1.0&quot;
+        encoding=&quot;UTF-8&quot;?&gt;&lt;retorno&gt;&lt;status_processamento&gt;1&lt;/status_processamento&gt;&lt;status&gt;Erro&lt;/status&gt;&lt;codigo_erro&gt;3&lt;/codigo_erro&gt;&lt;erros&gt;&lt;erro&gt;ERRO
+        XML mal formado, mensagem:\tStart tag expected, &apos;&amp;lt;&apos; not found\n\tStart
+        tag expected, &apos;&amp;lt;&apos; not found\n&lt;/erro&gt;&lt;/erros&gt;&lt;/retorno&gt;</return></ns1:incluirPedidoXMLResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>"
     http_version: 
-  recorded_at: Mon, 31 Mar 2014 13:15:58 GMT
+  recorded_at: Tue, 08 Apr 2014 12:57:50 GMT
 recorded_with: VCR 2.9.0

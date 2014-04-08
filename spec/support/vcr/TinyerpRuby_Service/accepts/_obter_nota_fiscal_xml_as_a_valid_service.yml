@@ -21,7 +21,7 @@ http_interactions:
       Content-Type:
       - text/xml; charset=ISO-8859-1
       Date:
-      - Mon, 31 Mar 2014 13:15:29 GMT
+      - Tue, 08 Apr 2014 12:57:47 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -29,7 +29,7 @@ http_interactions:
       Server:
       - Apache/2.2.25 (Amazon)
       Set-Cookie:
-      - PHPSESSID=vnlvl39749blpsu728ld9usf26lmte5v; path=/
+      - PHPSESSID=qtujhnrqkm1ednjo4djar3qb50dsuevn; path=/
       X-Powered-By:
       - PHP/5.3.27
       Transfer-Encoding:
@@ -1494,7 +1494,7 @@ http_interactions:
         aW9uPSJodHRwOi8vd3d3LnRpbnkuY29tLmJyL2FwaTIucGhwIi8+CiAgPC9w
         b3J0Pgo8L3NlcnZpY2U+CjwvZGVmaW5pdGlvbnM+
     http_version: 
-  recorded_at: Mon, 31 Mar 2014 13:15:29 GMT
+  recorded_at: Tue, 08 Apr 2014 12:57:48 GMT
 - request:
     method: post
     uri: http://www.tiny.com.br/api2.php
@@ -1502,14 +1502,14 @@ http_interactions:
       encoding: US-ASCII
       string: <?xml version="1.0" encoding="UTF-8"?><env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="urn:tinywsdl"
-        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"><env:Body><tns:obterNotaFiscalXML><token>asfasdkjkl</token><formato>xml</formato></tns:obterNotaFiscalXML></env:Body></env:Envelope>
+        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"><env:Body><tns:obterNotaFiscalXML><token><APIKEY></token><formato>json</formato></tns:obterNotaFiscalXML></env:Body></env:Envelope>
     headers:
       Soapaction:
       - ! '"urn:tinywsdl#obterNotaFiscalXML"'
       Content-Type:
       - text/xml;charset=UTF-8
       Content-Length:
-      - '362'
+      - '393'
       Accept:
       - ! '*/*'
       User-Agent:
@@ -1529,7 +1529,7 @@ http_interactions:
         dGV4dC94bWw7IGNoYXJzZXQ9VVRGLTg=
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAzMSBNYXIgMjAxNCAxMzoxNToyOSBHTVQ=
+        VHVlLCAwOCBBcHIgMjAxNCAxMjo1Nzo0OCBHTVQ=
       !binary "RXhwaXJlcw==":
       - !binary |-
         VGh1LCAxOSBOb3YgMTk4MSAwODo1MjowMCBHTVQ=
@@ -1541,7 +1541,7 @@ http_interactions:
         QXBhY2hlLzIuMi4yNSAoQW1hem9uKQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        UEhQU0VTU0lEPXV2Z290NHBhajZqYjlvdjk0MXA4ZnQ3M291aDVnbjl1OyBw
+        UEhQU0VTU0lEPWNxaTVrcnZvcm9xYm50dTBrM3U1MjZzMnZwaGJlZzEzOyBw
         YXRoPS8=
       !binary "WC1Qb3dlcmVkLUJ5":
       - !binary |-
@@ -1551,7 +1551,7 @@ http_interactions:
         TnVTT0FQLzAuOS41ICgxLjEp
       !binary "Q29udGVudC1MZW5ndGg=":
       - !binary |-
-        ODE0
+        ODI5
       !binary "Q29ubmVjdGlvbg==":
       - !binary |-
         a2VlcC1hbGl2ZQ==
@@ -1569,14 +1569,14 @@ http_interactions:
         Om9idGVyTm90YUZpc2NhbFhNTFJlc3BvbnNlIHhtbG5zOm5zMT0idXJuOnRp
         bnl3c2RsIj48cmV0dXJuIHhzaTp0eXBlPSJ4c2Q6c3RyaW5nIj4mbHQ7P3ht
         bCB2ZXJzaW9uPSZxdW90OzEuMCZxdW90OyBlbmNvZGluZz0mcXVvdDtVVEYt
-        OCZxdW90Oz8mZ3Q7Jmx0O3JldG9ybm8mZ3Q7Jmx0O3N0YXR1c19wcm9jZXNz
-        YW1lbnRvJmd0OzEmbHQ7L3N0YXR1c19wcm9jZXNzYW1lbnRvJmd0OyZsdDtz
-        dGF0dXMmZ3Q7RXJybyZsdDsvc3RhdHVzJmd0OyZsdDtjb2RpZ29fZXJybyZn
-        dDsyJmx0Oy9jb2RpZ29fZXJybyZndDsmbHQ7ZXJyb3MmZ3Q7Jmx0O2Vycm8m
-        Z3Q7dG9rZW4gaW52w6FsaWRvJmx0Oy9lcnJvJmd0OyZsdDsvZXJyb3MmZ3Q7
-        Jmx0Oy9yZXRvcm5vJmd0OzwvcmV0dXJuPjwvbnMxOm9idGVyTm90YUZpc2Nh
-        bFhNTFJlc3BvbnNlPjwvU09BUC1FTlY6Qm9keT48L1NPQVAtRU5WOkVudmVs
-        b3BlPg==
+        OCZxdW90Oz8mZ3Q7CiZsdDtyZXRvcm5vJmd0OyZsdDtzdGF0dXNfcHJvY2Vz
+        c2FtZW50byZndDsyJmx0Oy9zdGF0dXNfcHJvY2Vzc2FtZW50byZndDsmbHQ7
+        c3RhdHVzJmd0O0Vycm8mbHQ7L3N0YXR1cyZndDsmbHQ7Y29kaWdvX2Vycm8m
+        Z3Q7MzImbHQ7L2NvZGlnb19lcnJvJmd0OyZsdDtlcnJvcyZndDsmbHQ7ZXJy
+        byZndDtOb3RhIEZpc2NhbCBuw6NvIGxvY2FsaXphZGEmbHQ7L2Vycm8mZ3Q7
+        Jmx0Oy9lcnJvcyZndDsmbHQ7L3JldG9ybm8mZ3Q7CjwvcmV0dXJuPjwvbnMx
+        Om9idGVyTm90YUZpc2NhbFhNTFJlc3BvbnNlPjwvU09BUC1FTlY6Qm9keT48
+        L1NPQVAtRU5WOkVudmVsb3BlPg==
     http_version: 
-  recorded_at: Mon, 31 Mar 2014 13:15:29 GMT
+  recorded_at: Tue, 08 Apr 2014 12:57:48 GMT
 recorded_with: VCR 2.9.0

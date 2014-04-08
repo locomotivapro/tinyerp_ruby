@@ -21,7 +21,7 @@ http_interactions:
       Content-Type:
       - text/xml; charset=ISO-8859-1
       Date:
-      - Mon, 31 Mar 2014 13:16:01 GMT
+      - Tue, 08 Apr 2014 12:57:53 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -29,7 +29,7 @@ http_interactions:
       Server:
       - Apache/2.2.25 (Amazon)
       Set-Cookie:
-      - PHPSESSID=hbtvnhmkfjd8vctrnj2ntrkqb7s606uk; path=/
+      - PHPSESSID=30f86vu7svtato9g51kr1d1pt098fgpj; path=/
       X-Powered-By:
       - PHP/5.3.27
       Transfer-Encoding:
@@ -1494,7 +1494,7 @@ http_interactions:
         aW9uPSJodHRwOi8vd3d3LnRpbnkuY29tLmJyL2FwaTIucGhwIi8+CiAgPC9w
         b3J0Pgo8L3NlcnZpY2U+CjwvZGVmaW5pdGlvbnM+
     http_version: 
-  recorded_at: Mon, 31 Mar 2014 13:16:01 GMT
+  recorded_at: Tue, 08 Apr 2014 12:57:53 GMT
 - request:
     method: post
     uri: http://www.tiny.com.br/api2.php
@@ -1502,14 +1502,14 @@ http_interactions:
       encoding: US-ASCII
       string: <?xml version="1.0" encoding="UTF-8"?><env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="urn:tinywsdl"
-        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"><env:Body><tns:pesquisarContratosService><token>asfasdkjkl</token><formato>xml</formato></tns:pesquisarContratosService></env:Body></env:Envelope>
+        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"><env:Body><tns:pesquisarContratosService><token><APIKEY></token><formato>json</formato></tns:pesquisarContratosService></env:Body></env:Envelope>
     headers:
       Soapaction:
       - ! '"urn:tinywsdl#pesquisarContratosService"'
       Content-Type:
       - text/xml;charset=UTF-8
       Content-Length:
-      - '376'
+      - '407'
       Accept:
       - ! '*/*'
       User-Agent:
@@ -1529,7 +1529,7 @@ http_interactions:
         dGV4dC94bWw7IGNoYXJzZXQ9VVRGLTg=
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAzMSBNYXIgMjAxNCAxMzoxNjowMSBHTVQ=
+        VHVlLCAwOCBBcHIgMjAxNCAxMjo1Nzo1MyBHTVQ=
       !binary "RXhwaXJlcw==":
       - !binary |-
         VGh1LCAxOSBOb3YgMTk4MSAwODo1MjowMCBHTVQ=
@@ -1541,7 +1541,7 @@ http_interactions:
         QXBhY2hlLzIuMi4yNSAoQW1hem9uKQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        UEhQU0VTU0lEPXRvcXNwc3JnN2ltZnFkcGR0cWN1ZDg4bzh2OXN1Y3NyOyBw
+        UEhQU0VTU0lEPTJqZGRpNWMyMnRtYzk4ZjhoaDZnbHV0NnBjdTB1NXZxOyBw
         YXRoPS8=
       !binary "WC1Qb3dlcmVkLUJ5":
       - !binary |-
@@ -1551,7 +1551,7 @@ http_interactions:
         TnVTT0FQLzAuOS41ICgxLjEp
       !binary "Q29udGVudC1MZW5ndGg=":
       - !binary |-
-        ODI4
+        OTA2
       !binary "Q29ubmVjdGlvbg==":
       - !binary |-
         a2VlcC1hbGl2ZQ==
@@ -1572,11 +1572,13 @@ http_interactions:
         b3Q7VVRGLTgmcXVvdDs/Jmd0OyZsdDtyZXRvcm5vJmd0OyZsdDtzdGF0dXNf
         cHJvY2Vzc2FtZW50byZndDsxJmx0Oy9zdGF0dXNfcHJvY2Vzc2FtZW50byZn
         dDsmbHQ7c3RhdHVzJmd0O0Vycm8mbHQ7L3N0YXR1cyZndDsmbHQ7Y29kaWdv
-        X2Vycm8mZ3Q7MiZsdDsvY29kaWdvX2Vycm8mZ3Q7Jmx0O2Vycm9zJmd0OyZs
-        dDtlcnJvJmd0O3Rva2VuIGludsOhbGlkbyZsdDsvZXJybyZndDsmbHQ7L2Vy
-        cm9zJmd0OyZsdDsvcmV0b3JubyZndDs8L3JldHVybj48L25zMTpwZXNxdWlz
-        YXJDb250cmF0b3NTZXJ2aWNlUmVzcG9uc2U+PC9TT0FQLUVOVjpCb2R5Pjwv
-        U09BUC1FTlY6RW52ZWxvcGU+
+        X2Vycm8mZ3Q7NiZsdDsvY29kaWdvX2Vycm8mZ3Q7Jmx0O2Vycm9zJmd0OyZs
+        dDtlcnJvJmd0O0FQSSBCbG9xdWVhZGEgLSBFeGNlZGlkbyBvIG7Dum1lcm8g
+        ZGUgYWNlc3NvcyBhIEFQSSwgYWd1YXJkZSBhbGd1bnMgbWludXRvcyBlIHRl
+        bnRlIG5vdmFtZW50ZSZsdDsvZXJybyZndDsmbHQ7L2Vycm9zJmd0OyZsdDsv
+        cmV0b3JubyZndDs8L3JldHVybj48L25zMTpwZXNxdWlzYXJDb250cmF0b3NT
+        ZXJ2aWNlUmVzcG9uc2U+PC9TT0FQLUVOVjpCb2R5PjwvU09BUC1FTlY6RW52
+        ZWxvcGU+
     http_version: 
-  recorded_at: Mon, 31 Mar 2014 13:16:01 GMT
+  recorded_at: Tue, 08 Apr 2014 12:57:53 GMT
 recorded_with: VCR 2.9.0

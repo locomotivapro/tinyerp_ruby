@@ -15,7 +15,7 @@ describe TinyerpRuby::Service do
   end
 
   context 'accepts', :vcr do
-    conn = TinyerpRuby::Connection.new('asfasdkjkl')
+    conn = TinyerpRuby::Connection.new(API_KEY)
     poster = TinyerpRuby::Service.new(conn)
 
     TinyerpRuby::Service::SERVICES.each do |service|

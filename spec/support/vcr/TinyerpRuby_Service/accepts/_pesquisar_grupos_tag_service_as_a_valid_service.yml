@@ -21,7 +21,7 @@ http_interactions:
       Content-Type:
       - text/xml; charset=ISO-8859-1
       Date:
-      - Mon, 31 Mar 2014 13:15:30 GMT
+      - Tue, 08 Apr 2014 12:57:48 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -29,7 +29,7 @@ http_interactions:
       Server:
       - Apache/2.2.25 (Amazon)
       Set-Cookie:
-      - PHPSESSID=3140oia2ptnsmgjo62jja8v6tue0fvdh; path=/
+      - PHPSESSID=li9202573vq5ia6a6hat1pi1p4oiodrs; path=/
       X-Powered-By:
       - PHP/5.3.27
       Transfer-Encoding:
@@ -1494,7 +1494,7 @@ http_interactions:
         aW9uPSJodHRwOi8vd3d3LnRpbnkuY29tLmJyL2FwaTIucGhwIi8+CiAgPC9w
         b3J0Pgo8L3NlcnZpY2U+CjwvZGVmaW5pdGlvbnM+
     http_version: 
-  recorded_at: Mon, 31 Mar 2014 13:15:31 GMT
+  recorded_at: Tue, 08 Apr 2014 12:57:48 GMT
 - request:
     method: post
     uri: http://www.tiny.com.br/api2.php
@@ -1502,14 +1502,14 @@ http_interactions:
       encoding: US-ASCII
       string: <?xml version="1.0" encoding="UTF-8"?><env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="urn:tinywsdl"
-        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"><env:Body><tns:pesquisarGruposTagService><token>asfasdkjkl</token><formato>xml</formato></tns:pesquisarGruposTagService></env:Body></env:Envelope>
+        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"><env:Body><tns:pesquisarGruposTagService><token><APIKEY></token><formato>json</formato></tns:pesquisarGruposTagService></env:Body></env:Envelope>
     headers:
       Soapaction:
       - ! '"urn:tinywsdl#pesquisarGruposTagService"'
       Content-Type:
       - text/xml;charset=UTF-8
       Content-Length:
-      - '376'
+      - '407'
       Accept:
       - ! '*/*'
       User-Agent:
@@ -1529,7 +1529,7 @@ http_interactions:
         dGV4dC94bWw7IGNoYXJzZXQ9VVRGLTg=
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAzMSBNYXIgMjAxNCAxMzoxNTozMSBHTVQ=
+        VHVlLCAwOCBBcHIgMjAxNCAxMjo1Nzo0OCBHTVQ=
       !binary "RXhwaXJlcw==":
       - !binary |-
         VGh1LCAxOSBOb3YgMTk4MSAwODo1MjowMCBHTVQ=
@@ -1541,7 +1541,7 @@ http_interactions:
         QXBhY2hlLzIuMi4yNSAoQW1hem9uKQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        UEhQU0VTU0lEPW4zNW1zYWZiYm52cDZxc2RlM28xOGhoNDZlbjFjdWxjOyBw
+        UEhQU0VTU0lEPWU4ZnE3djdkYXE2NzFodXJpOXFjcWFpdG5hNXBmdjZiOyBw
         YXRoPS8=
       !binary "WC1Qb3dlcmVkLUJ5":
       - !binary |-
@@ -1551,7 +1551,7 @@ http_interactions:
         TnVTT0FQLzAuOS41ICgxLjEp
       !binary "Q29udGVudC1MZW5ndGg=":
       - !binary |-
-        ODI4
+        ODUw
       !binary "Q29ubmVjdGlvbg==":
       - !binary |-
         a2VlcC1hbGl2ZQ==
@@ -1569,14 +1569,14 @@ http_interactions:
         OnBlc3F1aXNhckdydXBvc1RhZ1NlcnZpY2VSZXNwb25zZSB4bWxuczpuczE9
         InVybjp0aW55d3NkbCI+PHJldHVybiB4c2k6dHlwZT0ieHNkOnN0cmluZyI+
         Jmx0Oz94bWwgdmVyc2lvbj0mcXVvdDsxLjAmcXVvdDsgZW5jb2Rpbmc9JnF1
-        b3Q7VVRGLTgmcXVvdDs/Jmd0OyZsdDtyZXRvcm5vJmd0OyZsdDtzdGF0dXNf
-        cHJvY2Vzc2FtZW50byZndDsxJmx0Oy9zdGF0dXNfcHJvY2Vzc2FtZW50byZn
-        dDsmbHQ7c3RhdHVzJmd0O0Vycm8mbHQ7L3N0YXR1cyZndDsmbHQ7Y29kaWdv
-        X2Vycm8mZ3Q7MiZsdDsvY29kaWdvX2Vycm8mZ3Q7Jmx0O2Vycm9zJmd0OyZs
-        dDtlcnJvJmd0O3Rva2VuIGludsOhbGlkbyZsdDsvZXJybyZndDsmbHQ7L2Vy
-        cm9zJmd0OyZsdDsvcmV0b3JubyZndDs8L3JldHVybj48L25zMTpwZXNxdWlz
-        YXJHcnVwb3NUYWdTZXJ2aWNlUmVzcG9uc2U+PC9TT0FQLUVOVjpCb2R5Pjwv
-        U09BUC1FTlY6RW52ZWxvcGU+
+        b3Q7VVRGLTgmcXVvdDs/Jmd0OwombHQ7cmV0b3JubyZndDsmbHQ7c3RhdHVz
+        X3Byb2Nlc3NhbWVudG8mZ3Q7MiZsdDsvc3RhdHVzX3Byb2Nlc3NhbWVudG8m
+        Z3Q7Jmx0O3N0YXR1cyZndDtFcnJvJmx0Oy9zdGF0dXMmZ3Q7Jmx0O2NvZGln
+        b19lcnJvJmd0OzIwJmx0Oy9jb2RpZ29fZXJybyZndDsmbHQ7ZXJyb3MmZ3Q7
+        Jmx0O2Vycm8mZ3Q7QSBjb25zdWx0YSBuw6NvIHJldG9ybm91IHJlZ2lzdHJv
+        cyZsdDsvZXJybyZndDsmbHQ7L2Vycm9zJmd0OyZsdDsvcmV0b3JubyZndDsK
+        PC9yZXR1cm4+PC9uczE6cGVzcXVpc2FyR3J1cG9zVGFnU2VydmljZVJlc3Bv
+        bnNlPjwvU09BUC1FTlY6Qm9keT48L1NPQVAtRU5WOkVudmVsb3BlPg==
     http_version: 
-  recorded_at: Mon, 31 Mar 2014 13:15:31 GMT
+  recorded_at: Tue, 08 Apr 2014 12:57:48 GMT
 recorded_with: VCR 2.9.0

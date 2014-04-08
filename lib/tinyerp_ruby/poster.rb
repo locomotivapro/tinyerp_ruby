@@ -26,6 +26,8 @@ module TinyerpRuby
         body = response.body[node][:return]
         parsed = JSON.parse body, symbolize_names: true
         parsed[:retorno]
+      rescue
+        {status: 'Erro'}
       end
 
     end
