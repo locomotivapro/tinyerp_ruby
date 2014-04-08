@@ -15,9 +15,11 @@ module TinyerpRuby
       private
       def formatted_params(params)
         params = params.first
+        param_value = params.last.kind_of?(Hash) ? params.last.to_json : params.last
+
         formatted = { token: @connection.api_key }
         formatted.delete(:formato)
-        formatted.merge!({params.first => params.last.to_json})
+        formatted.merge!({params.first => param_value})
         formatted.merge!({formato: 'json'})
         formatted
       end

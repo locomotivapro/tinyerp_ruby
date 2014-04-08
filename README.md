@@ -37,7 +37,7 @@ Then we create a service object.
 
     poster = TinyerpRuby::Service.new connection
 
-With service object created we just need to call the api methods and pass a hash according api description. Keep note that you must pass a hash of size one, where the key is the symbol with the parameter according to Tiny API and the value is another hash formatted according to Tiny API too.
+With service object created we just need to call the api methods and pass a hash according api description. Keep note that you must pass a hash of size one, where the key is the symbol with the parameter according to Tiny API and the value is an hash formatted according to Tiny API too or a string for api calls that uses only one param.
 
     params = {....}
     return_params = poster.pesquisar_vendedores_service(id: params)
