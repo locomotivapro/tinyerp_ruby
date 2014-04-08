@@ -20,17 +20,17 @@ describe TinyerpRuby::Service do
 
     TinyerpRuby::Service::SERVICES.each do |service|
       it "##{service.to_s} as a valid service" do
-        expect{ poster.send(service, {}) }.to_not raise_error
+        expect{ poster.send(service, {foo: 'bar'}) }.to_not raise_error
       end
     end
 
     it 'send message to Poster module' do
       expect(TinyerpRuby::Poster).to receive(:call)
-      poster.pesquisar_vendedores_service({})
+      poster.pesquisar_vendedores_service({foo: 'bar'})
     end
 
     it 'raise error when passing something else than a Hash' do
-      expect { poster.pesquisar_vendedores_service('anything') }.to raise_error
+      expect { poster.pesquisar_vendedores_service('bar') }.to raise_error
     end
 
     it 'return a hash with body response'
@@ -40,7 +40,8 @@ describe TinyerpRuby::Service do
     it 'raise error' do
       conn = TinyerpRuby::Connection.new('asfasdkjkl')
       poster = TinyerpRuby::Service.new(conn)
-      expect{ poster.other_method({}) }.to raise_error
+      expect{ poster.other_method({foo: 'bar'}) }.to raise_error
+
     end
   end
 
