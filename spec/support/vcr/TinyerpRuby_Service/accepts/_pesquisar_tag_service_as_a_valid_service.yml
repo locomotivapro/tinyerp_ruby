@@ -21,7 +21,7 @@ http_interactions:
       Content-Type:
       - text/xml; charset=ISO-8859-1
       Date:
-      - Tue, 08 Apr 2014 12:57:52 GMT
+      - Tue, 08 Apr 2014 13:45:54 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -29,7 +29,7 @@ http_interactions:
       Server:
       - Apache/2.2.25 (Amazon)
       Set-Cookie:
-      - PHPSESSID=4okqbuuce4mk69j2vdrdjjmmqsnaoes6; path=/
+      - PHPSESSID=5j7pahpl9ekicokb95m0bc24ddklvv39; path=/
       X-Powered-By:
       - PHP/5.3.27
       Transfer-Encoding:
@@ -1494,7 +1494,7 @@ http_interactions:
         aW9uPSJodHRwOi8vd3d3LnRpbnkuY29tLmJyL2FwaTIucGhwIi8+CiAgPC9w
         b3J0Pgo8L3NlcnZpY2U+CjwvZGVmaW5pdGlvbnM+
     http_version: 
-  recorded_at: Tue, 08 Apr 2014 12:57:52 GMT
+  recorded_at: Tue, 08 Apr 2014 13:45:54 GMT
 - request:
     method: post
     uri: http://www.tiny.com.br/api2.php
@@ -1502,14 +1502,14 @@ http_interactions:
       encoding: US-ASCII
       string: <?xml version="1.0" encoding="UTF-8"?><env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="urn:tinywsdl"
-        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"><env:Body><tns:pesquisarTagService><token><APIKEY></token><formato>json</formato></tns:pesquisarTagService></env:Body></env:Envelope>
+        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"><env:Body><tns:pesquisarTagService><token><APIKEY></token><foo>&quot;bar&quot;</foo><formato>json</formato></tns:pesquisarTagService></env:Body></env:Envelope>
     headers:
       Soapaction:
       - ! '"urn:tinywsdl#pesquisarTagService"'
       Content-Type:
       - text/xml;charset=UTF-8
       Content-Length:
-      - '395'
+      - '421'
       Accept:
       - ! '*/*'
       User-Agent:
@@ -1529,7 +1529,7 @@ http_interactions:
         dGV4dC94bWw7IGNoYXJzZXQ9VVRGLTg=
       !binary "RGF0ZQ==":
       - !binary |-
-        VHVlLCAwOCBBcHIgMjAxNCAxMjo1Nzo1MiBHTVQ=
+        VHVlLCAwOCBBcHIgMjAxNCAxMzo0NTo1NCBHTVQ=
       !binary "RXhwaXJlcw==":
       - !binary |-
         VGh1LCAxOSBOb3YgMTk4MSAwODo1MjowMCBHTVQ=
@@ -1541,7 +1541,7 @@ http_interactions:
         QXBhY2hlLzIuMi4yNSAoQW1hem9uKQ==
       !binary "U2V0LUNvb2tpZQ==":
       - !binary |-
-        UEhQU0VTU0lEPW0xY251MTFtaW51ZG9zcWY3aTQ5cnVkYzc1YTM0cjVtOyBw
+        UEhQU0VTU0lEPW84amtzdmxycmluampuM2JrMmwyZ3B0bjM3ZTNhbWtpOyBw
         YXRoPS8=
       !binary "WC1Qb3dlcmVkLUJ5":
       - !binary |-
@@ -1551,7 +1551,7 @@ http_interactions:
         TnVTT0FQLzAuOS41ICgxLjEp
       !binary "Q29udGVudC1MZW5ndGg=":
       - !binary |-
-        ODk0
+        ODM4
       !binary "Q29ubmVjdGlvbg==":
       - !binary |-
         a2VlcC1hbGl2ZQ==
@@ -1569,15 +1569,14 @@ http_interactions:
         OnBlc3F1aXNhclRhZ1NlcnZpY2VSZXNwb25zZSB4bWxuczpuczE9InVybjp0
         aW55d3NkbCI+PHJldHVybiB4c2k6dHlwZT0ieHNkOnN0cmluZyI+Jmx0Oz94
         bWwgdmVyc2lvbj0mcXVvdDsxLjAmcXVvdDsgZW5jb2Rpbmc9JnF1b3Q7VVRG
-        LTgmcXVvdDs/Jmd0OyZsdDtyZXRvcm5vJmd0OyZsdDtzdGF0dXNfcHJvY2Vz
-        c2FtZW50byZndDsxJmx0Oy9zdGF0dXNfcHJvY2Vzc2FtZW50byZndDsmbHQ7
-        c3RhdHVzJmd0O0Vycm8mbHQ7L3N0YXR1cyZndDsmbHQ7Y29kaWdvX2Vycm8m
-        Z3Q7NiZsdDsvY29kaWdvX2Vycm8mZ3Q7Jmx0O2Vycm9zJmd0OyZsdDtlcnJv
-        Jmd0O0FQSSBCbG9xdWVhZGEgLSBFeGNlZGlkbyBvIG7Dum1lcm8gZGUgYWNl
-        c3NvcyBhIEFQSSwgYWd1YXJkZSBhbGd1bnMgbWludXRvcyBlIHRlbnRlIG5v
-        dmFtZW50ZSZsdDsvZXJybyZndDsmbHQ7L2Vycm9zJmd0OyZsdDsvcmV0b3Ju
-        byZndDs8L3JldHVybj48L25zMTpwZXNxdWlzYXJUYWdTZXJ2aWNlUmVzcG9u
-        c2U+PC9TT0FQLUVOVjpCb2R5PjwvU09BUC1FTlY6RW52ZWxvcGU+
+        LTgmcXVvdDs/Jmd0OwombHQ7cmV0b3JubyZndDsmbHQ7c3RhdHVzX3Byb2Nl
+        c3NhbWVudG8mZ3Q7MiZsdDsvc3RhdHVzX3Byb2Nlc3NhbWVudG8mZ3Q7Jmx0
+        O3N0YXR1cyZndDtFcnJvJmx0Oy9zdGF0dXMmZ3Q7Jmx0O2NvZGlnb19lcnJv
+        Jmd0OzIwJmx0Oy9jb2RpZ29fZXJybyZndDsmbHQ7ZXJyb3MmZ3Q7Jmx0O2Vy
+        cm8mZ3Q7QSBjb25zdWx0YSBuw6NvIHJldG9ybm91IHJlZ2lzdHJvcyZsdDsv
+        ZXJybyZndDsmbHQ7L2Vycm9zJmd0OyZsdDsvcmV0b3JubyZndDsKPC9yZXR1
+        cm4+PC9uczE6cGVzcXVpc2FyVGFnU2VydmljZVJlc3BvbnNlPjwvU09BUC1F
+        TlY6Qm9keT48L1NPQVAtRU5WOkVudmVsb3BlPg==
     http_version: 
-  recorded_at: Tue, 08 Apr 2014 12:57:52 GMT
+  recorded_at: Tue, 08 Apr 2014 13:45:54 GMT
 recorded_with: VCR 2.9.0

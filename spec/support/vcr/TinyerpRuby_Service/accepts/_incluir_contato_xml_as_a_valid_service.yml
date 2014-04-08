@@ -21,7 +21,7 @@ http_interactions:
       Content-Type:
       - text/xml; charset=ISO-8859-1
       Date:
-      - Tue, 08 Apr 2014 12:58:00 GMT
+      - Tue, 08 Apr 2014 13:46:02 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -29,7 +29,7 @@ http_interactions:
       Server:
       - Apache/2.2.25 (Amazon)
       Set-Cookie:
-      - PHPSESSID=n2c1gtkfgoa2s47a3o452h3ravu4hvtk; path=/
+      - PHPSESSID=3q7hu1em3949qci2cmsh71kb7f94sj4f; path=/
       X-Powered-By:
       - PHP/5.3.27
       Transfer-Encoding:
@@ -1494,7 +1494,7 @@ http_interactions:
         aW9uPSJodHRwOi8vd3d3LnRpbnkuY29tLmJyL2FwaTIucGhwIi8+CiAgPC9w
         b3J0Pgo8L3NlcnZpY2U+CjwvZGVmaW5pdGlvbnM+
     http_version: 
-  recorded_at: Tue, 08 Apr 2014 12:58:00 GMT
+  recorded_at: Tue, 08 Apr 2014 13:46:02 GMT
 - request:
     method: post
     uri: http://www.tiny.com.br/api2.php
@@ -1502,14 +1502,14 @@ http_interactions:
       encoding: US-ASCII
       string: <?xml version="1.0" encoding="UTF-8"?><env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="urn:tinywsdl"
-        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"><env:Body><tns:incluirContatoXML><token><APIKEY></token><formato>json</formato></tns:incluirContatoXML></env:Body></env:Envelope>
+        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"><env:Body><tns:incluirContatoXML><token><APIKEY></token><foo>&quot;bar&quot;</foo><formato>json</formato></tns:incluirContatoXML></env:Body></env:Envelope>
     headers:
       Soapaction:
       - ! '"urn:tinywsdl#incluirContatoXML"'
       Content-Type:
       - text/xml;charset=UTF-8
       Content-Length:
-      - '391'
+      - '417'
       Accept:
       - ! '*/*'
       User-Agent:
@@ -1524,7 +1524,7 @@ http_interactions:
       Content-Type:
       - text/xml; charset=UTF-8
       Date:
-      - Tue, 08 Apr 2014 12:58:00 GMT
+      - Tue, 08 Apr 2014 13:46:02 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -1532,7 +1532,7 @@ http_interactions:
       Server:
       - Apache/2.2.25 (Amazon)
       Set-Cookie:
-      - PHPSESSID=hpck2suv3bebvil6ceo8vsqsj9pjnhvb; path=/
+      - PHPSESSID=0dm9i3rnev6ciu63he0no1v155gmme25; path=/
       X-Powered-By:
       - PHP/5.3.27
       X-Soap-Server:
@@ -1551,5 +1551,5 @@ http_interactions:
         XML mal formado, mensagem:\tStart tag expected, &apos;&amp;lt;&apos; not found\n\tStart
         tag expected, &apos;&amp;lt;&apos; not found\n&lt;/erro&gt;&lt;/erros&gt;&lt;/retorno&gt;</return></ns1:incluirContatoXMLResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>"
     http_version: 
-  recorded_at: Tue, 08 Apr 2014 12:58:00 GMT
+  recorded_at: Tue, 08 Apr 2014 13:46:02 GMT
 recorded_with: VCR 2.9.0

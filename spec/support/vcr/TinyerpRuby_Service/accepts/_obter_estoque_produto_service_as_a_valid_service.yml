@@ -21,7 +21,7 @@ http_interactions:
       Content-Type:
       - text/xml; charset=ISO-8859-1
       Date:
-      - Tue, 08 Apr 2014 12:57:57 GMT
+      - Tue, 08 Apr 2014 13:45:52 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -29,7 +29,7 @@ http_interactions:
       Server:
       - Apache/2.2.25 (Amazon)
       Set-Cookie:
-      - PHPSESSID=ag72v6sc1nk27fc6a5rcg09337ln8u43; path=/
+      - PHPSESSID=5jpvm1inu9l399ii8t7tbi2p3dhe8qu8; path=/
       X-Powered-By:
       - PHP/5.3.27
       Transfer-Encoding:
@@ -1494,7 +1494,7 @@ http_interactions:
         aW9uPSJodHRwOi8vd3d3LnRpbnkuY29tLmJyL2FwaTIucGhwIi8+CiAgPC9w
         b3J0Pgo8L3NlcnZpY2U+CjwvZGVmaW5pdGlvbnM+
     http_version: 
-  recorded_at: Tue, 08 Apr 2014 12:57:57 GMT
+  recorded_at: Tue, 08 Apr 2014 13:45:52 GMT
 - request:
     method: post
     uri: http://www.tiny.com.br/api2.php
@@ -1502,14 +1502,14 @@ http_interactions:
       encoding: US-ASCII
       string: <?xml version="1.0" encoding="UTF-8"?><env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="urn:tinywsdl"
-        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"><env:Body><tns:obterEstoqueProdutoService><token><APIKEY></token><formato>json</formato></tns:obterEstoqueProdutoService></env:Body></env:Envelope>
+        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"><env:Body><tns:obterEstoqueProdutoService><token><APIKEY></token><foo>&quot;bar&quot;</foo><formato>json</formato></tns:obterEstoqueProdutoService></env:Body></env:Envelope>
     headers:
       Soapaction:
       - ! '"urn:tinywsdl#obterEstoqueProdutoService"'
       Content-Type:
       - text/xml;charset=UTF-8
       Content-Length:
-      - '409'
+      - '435'
       Accept:
       - ! '*/*'
       User-Agent:
@@ -1517,68 +1517,37 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Q2FjaGUtQ29udHJvbA==":
-      - !binary |-
-        bm8tc3RvcmUsIG5vLWNhY2hlLCBtdXN0LXJldmFsaWRhdGUsIHBvc3QtY2hl
-        Y2s9MCwgcHJlLWNoZWNrPTA=
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC94bWw7IGNoYXJzZXQ9VVRGLTg=
-      !binary "RGF0ZQ==":
-      - !binary |-
-        VHVlLCAwOCBBcHIgMjAxNCAxMjo1Nzo1NyBHTVQ=
-      !binary "RXhwaXJlcw==":
-      - !binary |-
-        VGh1LCAxOSBOb3YgMTk4MSAwODo1MjowMCBHTVQ=
-      !binary "UHJhZ21h":
-      - !binary |-
-        bm8tY2FjaGU=
-      !binary "U2VydmVy":
-      - !binary |-
-        QXBhY2hlLzIuMi4yNSAoQW1hem9uKQ==
-      !binary "U2V0LUNvb2tpZQ==":
-      - !binary |-
-        UEhQU0VTU0lEPXZtY3MwOHZsODNyN3NhdjU1ZzgxM21mZHMxYTFyM2VpOyBw
-        YXRoPS8=
-      !binary "WC1Qb3dlcmVkLUJ5":
-      - !binary |-
-        UEhQLzUuMy4yNw==
-      !binary "WC1Tb2FwLVNlcnZlcg==":
-      - !binary |-
-        TnVTT0FQLzAuOS41ICgxLjEp
-      !binary "Q29udGVudC1MZW5ndGg=":
-      - !binary |-
-        OTA4
-      !binary "Q29ubmVjdGlvbg==":
-      - !binary |-
-        a2VlcC1hbGl2ZQ==
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Date:
+      - Tue, 08 Apr 2014 13:45:52 GMT
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache/2.2.25 (Amazon)
+      Set-Cookie:
+      - PHPSESSID=ctuptvgtmj9corc4jff0lh7n2vp0ufv1; path=/
+      X-Powered-By:
+      - PHP/5.3.27
+      X-Soap-Server:
+      - NuSOAP/0.9.5 (1.1)
+      Content-Length:
+      - '761'
+      Connection:
+      - keep-alive
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48U09BUC1F
-        TlY6RW52ZWxvcGUgU09BUC1FTlY6ZW5jb2RpbmdTdHlsZT0iaHR0cDovL3Nj
-        aGVtYXMueG1sc29hcC5vcmcvc29hcC9lbmNvZGluZy8iIHhtbG5zOlNPQVAt
-        RU5WPSJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy9zb2FwL2VudmVsb3Bl
-        LyIgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVt
-        YSIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVt
-        YS1pbnN0YW5jZSIgeG1sbnM6U09BUC1FTkM9Imh0dHA6Ly9zY2hlbWFzLnht
-        bHNvYXAub3JnL3NvYXAvZW5jb2RpbmcvIj48U09BUC1FTlY6Qm9keT48bnMx
-        Om9idGVyRXN0b3F1ZVByb2R1dG9TZXJ2aWNlUmVzcG9uc2UgeG1sbnM6bnMx
-        PSJ1cm46dGlueXdzZGwiPjxyZXR1cm4geHNpOnR5cGU9InhzZDpzdHJpbmci
-        PiZsdDs/eG1sIHZlcnNpb249JnF1b3Q7MS4wJnF1b3Q7IGVuY29kaW5nPSZx
-        dW90O1VURi04JnF1b3Q7PyZndDsmbHQ7cmV0b3JubyZndDsmbHQ7c3RhdHVz
-        X3Byb2Nlc3NhbWVudG8mZ3Q7MSZsdDsvc3RhdHVzX3Byb2Nlc3NhbWVudG8m
-        Z3Q7Jmx0O3N0YXR1cyZndDtFcnJvJmx0Oy9zdGF0dXMmZ3Q7Jmx0O2NvZGln
-        b19lcnJvJmd0OzYmbHQ7L2NvZGlnb19lcnJvJmd0OyZsdDtlcnJvcyZndDsm
-        bHQ7ZXJybyZndDtBUEkgQmxvcXVlYWRhIC0gRXhjZWRpZG8gbyBuw7ptZXJv
-        IGRlIGFjZXNzb3MgYSBBUEksIGFndWFyZGUgYWxndW5zIG1pbnV0b3MgZSB0
-        ZW50ZSBub3ZhbWVudGUmbHQ7L2Vycm8mZ3Q7Jmx0Oy9lcnJvcyZndDsmbHQ7
-        L3JldG9ybm8mZ3Q7PC9yZXR1cm4+PC9uczE6b2J0ZXJFc3RvcXVlUHJvZHV0
-        b1NlcnZpY2VSZXNwb25zZT48L1NPQVAtRU5WOkJvZHk+PC9TT0FQLUVOVjpF
-        bnZlbG9wZT4=
+      encoding: US-ASCII
+      string: <?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+        xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:obterEstoqueProdutoServiceResponse
+        xmlns:ns1="urn:tinywsdl"><return xsi:type="xsd:string">{&quot;retorno&quot;:{&quot;status_processamento&quot;:&quot;2&quot;,&quot;status&quot;:&quot;Erro&quot;,&quot;codigo_erro&quot;:&quot;32&quot;,&quot;erros&quot;:[{&quot;erro&quot;:&quot;Produto
+        n\u00e3o localizado&quot;}]}}</return></ns1:obterEstoqueProdutoServiceResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
     http_version: 
-  recorded_at: Tue, 08 Apr 2014 12:57:58 GMT
+  recorded_at: Tue, 08 Apr 2014 13:45:52 GMT
 recorded_with: VCR 2.9.0
