@@ -7,6 +7,8 @@ by [Locomotiva.pro](http://locomotiva.pro)
 
 Gem for integration with [TinyERP](http://www.tiny.com.br) API. At the moment this gem is tested under ruby 1.9.3 and have some problems with ruby 2.0 because an weird behaviour with encoding.
 
+#### Warning at this moment this gem does not work with ruby 2.0 on OsX.
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -35,11 +37,11 @@ Then we create a service object.
 
     poster = TinyerpRuby::Service.new connection
 
-With service object created we just need to call the api methods and pass a hash according api description.
+With service object created we just need to call the api methods and pass a hash according api description. Keep note that you must pass a hash of size one, where the key is the symbol with the parameter according to Tiny API and the value is another hash formatted according to Tiny API too.
 
     params = {....}
     return_params = poster.pesquisar_vendedores_service(id: params)
-    return_params = poster.incluir_pedido_service(pedido: params.to_json)
+    return_params = poster.incluir_pedido_service(pedido: params)
 
 The list with complete api method is found [here.](http://www.tiny.com.br/manuais/api2/)
 
